@@ -4,3 +4,7 @@ body{
     font-family:'Times New Roman', Times, serif;
     margin: 40px 20px;
 }
+#kasvohoito{
+    width: 102%;
+    max-width: 400px;
+}
