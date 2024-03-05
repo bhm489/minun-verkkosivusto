@@ -4,6 +4,7 @@ body{
     font-family:'Times New Roman', Times, serif;
     margin: 40px 20px;
 }
+
 #uusinkasvohoito{ 
     width: 102%;
     max-width: 400px;
@@ -27,7 +28,7 @@ figcaption {
 
 .esittely{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 header {
@@ -63,6 +64,14 @@ nav a:hover{
     background-color: #e9bdef;
 
 }
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 30px;
+
+}
 
 footer{
     background-color: #f0d9f3;
@@ -84,4 +93,38 @@ footer{
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer; 
+}
+
+.toimintokehote:hover {
+    background-color: rgb(228, 193, 234);
+    color: #000000;
+}
+
+/*"mailto:asiakaspalvelu@m-beauty.fi" */
+a:link {
+    color: #000000;
+}
+
+a:link:hover {
+    color: #913d9c;
+}
+
+#kädet{
+    width: 90%;
+    max-width: 400px;
+}
+
+#kasvohoito{
+    width: 90%;
+    max-width: 400px;
+}
+
+#jalat{
+    width: 90%;
+    max-width: 400px;
+}
+
+#ripset{
+    width: 90%;
+    max-width: 400px;
 }
