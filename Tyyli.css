@@ -31,8 +31,8 @@ figcaption {
     font-weight: normal;
 }
 
-header {
-    background-image: url(Kuvat/pinkitkukat.jpg);
+header{
+    background-image:url(Kuvat/pinkitkukat.jpg);
     background-size: cover;
     text-align: center;
     font-size:large;
@@ -92,7 +92,8 @@ footer{
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
-    cursor: pointer; 
+    cursor: pointer;
+    color: #000000; 
 }
 
 .toimintokehote:hover {
