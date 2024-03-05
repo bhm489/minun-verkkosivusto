@@ -8,16 +8,7 @@
 
 	<!--linkitetään tähän CSS tyylitiedosto-->
 	<link rel="stylesheet" href="Tyyli.css">
-
-	<!--tästä alkaa navigaatio-->
 	
-	<nav>
-		<a href="index.html"id="valittu">M-Beauty</a>
-		<a href="varaus.html">Ajanvaraus</a>
-		<a href="palvelu.html">Palvelut</a>
-		<a href="hinnasto.html">Hinnasto</a>
-		<a href="yhteys.html">Ota yhteyttä</a>
-	</nav>
 </head>
 
 <body>
@@ -25,12 +16,22 @@
 <section class="grid-container">
 		<div class="grid-teksti">
 
-	<header>
+	<header id="etusivu">
 			<!-- Muu header tieto tänne-->
+
+		<nav>
+			<a href="index.html"id="valittu">M-Beauty</a>
+			<a href="varaus.html">Ajanvaraus</a>
+			<a href="palvelu.html">Palvelut</a>
+			<a href="hinnasto.html">Hinnasto</a>
+			<a href="yhteys.html">Ota yhteyttä</a>
+		</nav>
 
 		<h1>M-Beauty</h1>
 
-	</header>
+		<!--tänne toimintokehote-->
+		<a href="index.html" class="toimintokehote">Varaa aika!</a>
+		</header>
 
 		<p class="esittely">Tervetuloa tutustumaan kauneudenhoitopalveluihimme! <br> Tarjoamme laadukkaita ja ammattimaisia palveluita rentouttavissa ympäristössä. <br>Tutustu ja varaa itsellesi sopiva aika. </p>
 	<h2>Palvelut</h2>
@@ -47,10 +48,7 @@
 		<p>Mikroneulaus <br> Kosteuttava kasvohoito <br> Happohoidot</p>
 	</div>
 	<div class="grid-kuva">
-		<figure>
-			<img id="uusinkasvohoito" src="Kuvat/uusinkasvohoito.jpg" alt="Kasvohoitopalvelu">
-			<figcaption>Kasvohoito palvelu</figcaption>
-		</figure>
+		
 	</div>
 	<h3>Toimipisteet</h3>
 		<p>Helsinki, Kamppi <br> Espooo, Iso Omena <br> Vantaa, Jumbo <br>
@@ -63,14 +61,19 @@
 	<br>
 	<footer>
 		<h1>M-Beauty</h1>
-		<h2>Yhteystiedot</h2>
+		<div><h2>Yhteystiedot</h2>
 		<p>Puhelinnumero: +358 441 234 567 <br> Sähköposti: asiakaspalvelu@m-beauty.fi </p>
-		<h2>Sijainti</h2>
-		<p>Helsinki, Kamppi. Urho Kekkosen Katu 1, 00100<br>
-		 Espooo, Iso Omena. Piispansilta 11, 02230<br> Vantaa, Jumbo. Vantaanportinkatu 3, 01510</p>
-		<h2>Aukioloajat</h2>
-		<p>Kaikki toimipisteemme ovat auki Ma - Pe klo. 8.00 - 21.00 & La klo. 12.00 - 18.00 </p>
-		<br>
+		</div>
+		<div><h2>Sijainti</h2>
+		<p>Helsinki, Kamppi.<br>
+		Espooo, Iso Omena. <br> Vantaa, Jumbo. </p>
+		</div>
+		<div><h2>Aukioloajat</h2>
+		<p>Kaikki toimipisteemme ovat auki <br> Ma - Pe klo. 8.00 - 21.00 & La klo. 12.00 - 18.00 </p>
+		</div>
+	</footer>
+
+	<footer>
 		<p>Copyright &copy; 2024, M-Beauty.</p>
 	</footer>
 </body>
