@@ -5,6 +5,7 @@ body{
     margin: 40px 20px;
 }
 
+
 #uusinkasvohoito{ 
     width: 102%;
     max-width: 400px;
@@ -126,6 +127,14 @@ a:link:hover {
 }
 
 #ripset{
+    width: 100%;
+    max-width: 400px;
+}
+#kädet{
+    width: 100%;
+    max-width: 400px;
+}
+#kulma{
     width: 100%;
     max-width: 400px;
 }
