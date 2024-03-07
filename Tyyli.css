@@ -3,6 +3,7 @@ body{
     background-color: #F4E6F6;
     font-family:'Times New Roman', Times, serif;
     margin: 40px 20px;
+    
 }
 
 
@@ -139,4 +140,3 @@ a:link:hover {
     width: 100%;
     max-width: 400px;
 }
-
