@@ -5,7 +5,13 @@ body{
     margin: 40px 20px;
     
 }
+h1{
+    font-size: 44px;
+}
 
+p{
+    font-size: 20px;
+}
 
 #uusinkasvohoito{ 
     width: 102%;
@@ -103,7 +109,6 @@ footer{
     color: #000000;
 }
 
-/*"mailto:asiakaspalvelu@m-beauty.fi" */
 a:link {
     color: #000000;
 }
