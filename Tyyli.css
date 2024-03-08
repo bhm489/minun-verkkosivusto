@@ -140,3 +140,31 @@ a:link:hover {
     width: 100%;
     max-width: 400px;
 }
+
+/*tietokoneen ruudulle desktop*/
+@media screen and (min-width: 1025px) {
+    #etusivu{
+        background-image: url(Kuvat/pinkitkukat.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+}
+
+/*tablettikoko*/
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    #etusivu {
+        background-image: url(Kuvat/pinkitkukat.jpg);
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+/*mobiilikoko*/
+@media screen and (max-width: 480px){
+    #etusivu {
+        background-image: url(Kuvat/pinkitkukat.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+}
+
