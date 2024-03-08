@@ -67,14 +67,7 @@ nav a:hover{
     background-color: #e9bdef;
 
 }
-.container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    padding: 30px;
 
-}
 
 footer{
     background-color: #f0d9f3;
@@ -146,16 +139,32 @@ a:link:hover {
     #etusivu{
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
-        height: 400px;
+        height: 300px;
+    }
+    .container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        padding: 30px;
+    
     }
 }
 
 /*tablettikoko*/
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-    #etusivu {
+    #etusivu{
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
-        height: 600px;
+        height: 300px;
+    }
+    .container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        padding: 30px;
+    
     }
 }
 
@@ -164,7 +173,16 @@ a:link:hover {
     #etusivu {
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
-        height: 400px;
+        height: 300px;
     }
+    .container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        padding: 30px;
+    
+    }
+ 
 }
 
