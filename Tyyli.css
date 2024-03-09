@@ -162,7 +162,7 @@ a:link:hover {
 }
 
 /*tablettikoko*/
-@media screen and (min-width: 453px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
     #etusivu{
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
@@ -179,7 +179,7 @@ a:link:hover {
     .container2 {
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 20px;
         padding: 30px;
     
@@ -187,7 +187,7 @@ a:link:hover {
 }
 
 /*mobiilikoko*/
-@media screen and (max-width: 452px){
+@media screen and (max-width: 480px){
     #etusivu {
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
@@ -196,10 +196,9 @@ a:link:hover {
     .container {
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         column-gap: 20px;
         padding: 30px;
-    
     }
     .container2 {
         display: grid;
