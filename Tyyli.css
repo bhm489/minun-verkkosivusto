@@ -155,7 +155,7 @@ a:link:hover {
 }
 
 /*tablettikoko*/
-@media screen and (min-width: 431px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
     #etusivu{
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
@@ -180,7 +180,7 @@ a:link:hover {
 }
 
 /*mobiilikoko*/
-@media screen and (max-width: 430px){
+@media screen and (max-width: 480px){
     #etusivu {
         background-image: url(Kuvat/pinkitkukat.jpg);
         background-size: cover;
